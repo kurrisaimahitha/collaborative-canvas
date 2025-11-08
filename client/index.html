@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collaborative Canvas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🎨 Collaborative Canvas</h1>
+            <div class="toolbar">
+                <button id="brush-btn" class="tool-btn active" title="Brush">
+                    <span class="tool-icon">🖌️</span>
+                </button>
+                <button id="eraser-btn" class="tool-btn" title="Eraser">
+                    <span class="tool-icon">🧽</span>
+                </button>
+                <div class="color-picker">
+                    <input type="color" id="color-picker" value="#000000">
+                </div>
+                <div class="size-control">
+                    <label for="size-slider">Size:</label>
+                    <input type="range" id="size-slider" min="1" max="50" value="5">
+                    <span id="size-value">5</span>
+                </div>
+                <button id="undo-btn" class="action-btn" title="Undo">
+                    <span class="action-icon">↶</span>
+                </button>
+                <button id="redo-btn" class="action-btn" title="Redo">
+                    <span class="action-icon">↷</span>
+                </button>
+                <button id="clear-btn" class="action-btn" title="Clear Canvas">
+                    <span class="action-icon">🗑️</span>
+                </button>
+            </div>
+        </header>
+
+        <div class="main-content">
+            <div class="canvas-container">
+                <canvas id="canvas" width="800" height="600"></canvas>
+            </div>
+
+            <div class="sidebar">
+                <div class="users-panel">
+                    <h3>👥 Online Users</h3>
+                    <div id="user-list" class="user-list"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="websocket.js"></script>
+    <script src="canvas.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
