@@ -2,8 +2,8 @@
 
 ## Project Setup
 - [x] Create package.json with dependencies and scripts
-- [ ] Create server directory structure
-- [ ] Create client directory structure
+- [x] Create server directory structure
+- [x] Create client directory structure
 
 ## Server Implementation
 - [x] Implement server.js (Express + Socket.io server)
