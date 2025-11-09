@@ -55,6 +55,10 @@ For detailed technical information about the system design and implementation de
 
 I tested the app with multiple browser tabs and drew at the same time in each one to check real-time synchronicity. The app seems suitable for small to medium groups (up to 10 concurrent users), but may bog down if the canvas gets very large or there are too many users. Limitations at the moment are no persistent storage (drawings are lost on server restarts) and very basic conflict resolution that works for simple drawing but could be expanded for more complex collaborative work flows. 
 
+## Time Spent
+
+This project took approximately 3 days to complete, including research, implementation, testing, and deployment.
+
 ## Notes from the Author
 
 Building this project helped me understand the complexities of maintaining shared state in real-time applications and the importance of efficient client-server communication patterns.
