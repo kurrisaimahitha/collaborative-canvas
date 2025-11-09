@@ -19,8 +19,8 @@ I built this project to explore real-time web technologies and understand the ch
 
 1. Clone the repository:
    ```bash
-   git clone <YOUR_REPOSITORY_URL>
-   cd <PROJECT_DIRECTORY_NAME>
+   git clone https://github.com/kurrisaimahitha/collaborative-canvas.git
+   cd collaborative-canvas
    ```
 
 2. Install dependencies:
@@ -33,7 +33,11 @@ I built this project to explore real-time web technologies and understand the ch
    npm start
    ```
 
-4. Open `http://localhost:4000` in multiple browser tabs to test collaborative drawing.
+4. Open `http://localhost:3000` in multiple browser tabs to test collaborative drawing.
+
+## Demo
+
+A live demo is available at: [https://collaborative-canvas-kurri.herokuapp.com](https://collaborative-canvas-kurri.herokuapp.com)
 
 ## Basic Usage
 
