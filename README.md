@@ -37,7 +37,7 @@ I built this project to explore real-time web technologies and understand the ch
 
 ## Demo
 
-A live demo is available at: [https://collaborative-canvas-kurri.herokuapp.com](https://collaborative-canvas-kurri.herokuapp.com)
+A live demo is available at: [https://web-production-cf492.up.railway.app/](https://web-production-cf492.up.railway.app/)
 
 ## Basic Usage
 
