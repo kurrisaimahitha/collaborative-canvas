@@ -55,18 +55,6 @@ For detailed technical information about the system design and implementation de
 
 I tested the application by opening multiple browser tabs and performing simultaneous drawing operations to verify real-time synchronization. The app performs well for small to medium groups (up to 10 concurrent users) but may experience performance degradation with very large canvases or high user counts. Current limitations include lack of persistent storage (drawings are lost when the server restarts) and basic conflict resolution that works for simple drawing scenarios but could be enhanced for more complex collaborative workflows.
 
-## Contributing
-
-Contributions are welcome! To contribute:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-Run the application locally to test your changes before submitting.
-
 ## Notes from the Author
 
 Building this project helped me understand the complexities of maintaining shared state in real-time applications and the importance of efficient client-server communication patterns.
