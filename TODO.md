@@ -19,7 +19,7 @@
 
 ## Documentation
 - [x] Create README.md (Setup instructions, testing guide, limitations)
-- [ ] Create ARCHITECTURE.md (Data flow, WS protocol, undo/redo strategy)
+- [x] Create ARCHITECTURE.md (Data flow, WS protocol, undo/redo strategy)
 
 ## Testing and Refinement
 - [x] Run npm install and npm start
